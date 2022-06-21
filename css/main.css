@@ -1,0 +1,319 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  margin: 0;
+  font-family: "Karla" , "Arial" , sans-serif;
+  font-weight: 400;
+}
+.container{
+  width: 1240px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.header-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.img{
+  margin-left: 60px;
+}
+
+
+
+.sitenav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px;
+}
+
+.sitenav-list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.sitenav-link{
+  margin-left: 25px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #837D88;
+  text-decoration: none;
+}
+ .sitenav-link:hover{
+color: #2C2830;;
+ }
+
+.sitenav-plan-link{
+  margin-right: 25px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #2c2830;
+  border: 2px solid #000;
+  text-decoration: none;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+.sitenav-item{
+  margin-top: 34px;
+  margin-bottom: 31px;
+}
+
+.sitenav-plan-link:hover{
+  color:#fffa;
+  background-color: #000;
+}
+
+.sitenav-plan-link-top{
+  text-decoration: none;
+  color: #fff;
+  border: 1.5px solid #fff;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  padding-left: 28px;
+  padding-right: 28px;
+  
+}
+.sitenav-plan-link-top:hover{
+  color: #2C2830;
+  background-color: #FFFFFF;
+border: 1.5px solid #FFFFFF;
+  
+}
+.hero{
+  background-color: #2D2641;
+}
+
+.hero-box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero-info{
+  width: 540px;
+  
+}
+
+.line{
+  display: block;
+  width: 150px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.hero-heading{
+  font-family: "DM Serif Display" , "Times New Roman" , serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+  margin-top: 63px;
+}
+.hero-text{
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-top: 16px;
+  margin-bottom: 50px;
+}
+
+.light{
+  margin-right: 0;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.line{
+  margin-left: 30px;
+}
+
+.services-line{
+  margin-top: 50px;
+  background-color: #c396c6;
+}
+.family-image{
+  padding-top: 85px;
+  padding-left: 10px;
+  
+}
+.news-logo-img{
+  margin-top: 96px;
+}
+.services-line{
+margin-top: 305px;
+}
+.services-heading{
+  font-family: "DM Serif Display" , "Times New Roman" , serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2C2830;
+  margin-left: 30px;
+  margin-top: 63px;
+
+}
+
+.services-list{
+  font-family: "DM Serif Display" , "Times New Roman" , serif;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.services-item-heading{
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+.services-item{
+  width: 350px;
+  list-style: none;
+}
+.services-item-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #837D88;
+  margin-right: 30px;
+  margin-bottom: 158px;
+}
+
+.aside-link-top{
+  background: #2D2641;
+  margin-bottom: 150px;
+
+}
+.aside-link{
+  border: 1.5px solid #FFFFFF;
+  color: #fff;
+}
+.aside-link:hover{
+  color: #2C2830;
+  background-color: #fff;
+}
+.heading-aside{
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.777778px;
+  padding-left: 25px;
+  padding-top: 69px;
+  padding-bottom: 69px;
+  color: #FFFFFF;
+  
+}
+.aside-text{
+  color: #ffff;
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.777778px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  
+  
+}
+.aside-link{
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  
+  
+}
+.footer-box{
+  background-color: #fafafa;
+  width: 1440px;
+height: 393px;
+}
+.insure-logo{
+  margin-top: 67px;
+}
+.footer-part{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 36px;
+  margin-left: 40px;
+}
+.footer-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.text-footer-box-part{
+  list-style: none;
+}
+.text-footer-3part{
+  list-style: none;
+}
+.footer-part{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  color: #837D88;
+  
+}
+.text-works{
+  margin-bottom: 16px;
+}
+.text-works-box{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  color: #2D2641;
+  text-decoration: none;
+  margin-top: 16px;
+
+  
+}
+.text-works-box:hover{
+  text-decoration-line: underline;
+
+  color: #2D2641;
+}
+
+.box-footer-item{
+  margin-right: 50px;
+}
+.icon-image{
+  margin-right: 16px;
+}
+.footer-buttom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.text-footer{
+  list-style: none;
+}
