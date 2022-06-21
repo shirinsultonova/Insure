@@ -285,6 +285,10 @@ height: 393px;
 .text-works{
   margin-bottom: 16px;
 }
+.icon{
+  margin-top: 64px;
+  margin-right: 16px;
+}
 .text-works-box{
   font-weight: 700;
   font-size: 13px;
@@ -308,6 +312,9 @@ height: 393px;
 .icon-image{
   margin-right: 16px;
 }
+.icon-image:hover{
+ background-color: #2C2830;
+}
 .footer-buttom{
   display: flex;
   justify-content: space-between;
@@ -317,3 +324,4 @@ height: 393px;
 .text-footer{
   list-style: none;
 }
+
