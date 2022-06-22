@@ -324,4 +324,7 @@ height: 393px;
 .text-footer{
   list-style: none;
 }
-
+.footer-top{
+  margin-bottom: 48px;
+  border-bottom: 1px solid #dadada;
+}
