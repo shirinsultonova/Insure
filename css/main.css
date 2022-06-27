@@ -103,13 +103,13 @@ body {
 
 .hero {
   background-color: #2d2641;
-  background-image: url("../image/waves1.svg");
+  background-image: url("../images/Group\ 17.svg");
   background-repeat: no-repeat;
   background-position: calc(50% + 520px) calc(50% - 112px);
 }
 
 .hero-box {
-  background-image: url("../image/waves2.svg");
+  background-image: url("../images/Group\ 18.svg");
   background-repeat: no-repeat;
   background-position: calc(50% - 615px) calc(50% + 465px);
 }
@@ -225,10 +225,10 @@ body {
   border-radius: 50%;
 }
 .about-item:nth-child(1)::before {
-  background-image: url("../images/Group\ 17.svg");
+  background-image: url("..//images/Group\ 5.jpg");
 }
 .about-item:nth-child(2)::before {
-  background-image: url("../images/Group\ 18.svg");
+  background-image: url("../images/Group\ 7.jpg");
 }
 .about-item:nth-child(2) {
   margin: 0 30px;
